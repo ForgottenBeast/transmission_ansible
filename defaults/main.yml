@@ -1,0 +1,11 @@
+#shall we use let'sencrypt?
+SSL: false
+transmission_domain_name: "transmission.whatever.xyz"
+
+transmission_letsencrypt_domain_name: "transmission.whatever.xyz"
+transmission_letsencrypt_mail: "none@throwaway.devnull"
+#disabled when setting up a site, enable it when deploying to production
+letsencrypt_testmode: "true"
+
+transmission_downloads: "/downloads"
+conf_volume: "transmission_conf"
